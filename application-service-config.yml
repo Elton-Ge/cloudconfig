@@ -13,4 +13,4 @@ eureka:
       defaultZone: http://localhost:8080/eureka
 
 test:
-  string: goodluck222
+  string: goodluck222333
