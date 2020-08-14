@@ -1,0 +1,15 @@
+#配置应用名称
+spring:
+  application:
+    name: application-service
+
+#服务器端口号
+server:
+  port: 8081
+#设置eureka集群其他节点的地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
+test:
+  string: hello
